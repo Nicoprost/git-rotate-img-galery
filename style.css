@@ -205,7 +205,7 @@ transition-delay: 0.75s;
 
 /*******responsive*****/
 
-@media screen and (max-width:700px) and (min-width:300px){
+@media screen and (max-width:700px) and (min-width:500px){
     .navbar
     {
     width: 100%;
@@ -228,11 +228,31 @@ transition-delay: 0.75s;
 }
 .container
 {
-    width: 70%;
+    width: 50%;
+    height: 50%;
+    bottom: 20px;
     }
+.container a 
+{
+    align-items: center;
+    width: 50%;
+    height: 8%;
+    font-size: 12px;
+    bottom: -200px;
+}
 .container a span
 {
-    width: 70%;
+    width: 10%;
+    height: 1px;
+    
+    
+    
+}
+.container a ion-icon
+{
+    width: 10%;
+    
+    
 }
 }
 
