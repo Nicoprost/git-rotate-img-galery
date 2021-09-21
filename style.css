@@ -216,11 +216,11 @@ transition-delay: 0.75s;
 }  
 .navbar ul li a{
     font-size: 1em;
-    margin-top: 20px;
+    
 }  
 .box
 {
-    top: -50px;
+    top: 40px;
 }
 .box span {
     width: 80%;
@@ -229,8 +229,8 @@ transition-delay: 0.75s;
     justify-content: center;
 }
 .box span img{
-    width: 80%;
-    height: 80%;
+    width: 70%;
+    height: 70%;
 }
 .container
 {
@@ -240,11 +240,10 @@ transition-delay: 0.75s;
     }
 .container a 
 {
-   
     width: 50%;
     height: 12%;
     font-size: 12px;
-    bottom: -100px;
+    bottom: -120px;
 }
 /***.container a span
 {
