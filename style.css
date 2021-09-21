@@ -205,7 +205,7 @@ transition-delay: 0.75s;
 
 /*******responsive*****/
 
-@media screen and (max-width:700px) and (min-width:500px){
+@media screen and (max-width:600px) and (min-width:300px){
     .navbar
     {
     width: 100%;
@@ -220,7 +220,7 @@ transition-delay: 0.75s;
 }  
 .box
 {
-    top: 30px;
+    top: -50px;
 }
 .box span {
     width: 80%;
@@ -240,28 +240,75 @@ transition-delay: 0.75s;
     }
 .container a 
 {
-    align-items: center;
+   
     width: 50%;
     height: 12%;
     font-size: 12px;
     bottom: -100px;
 }
-.container a span
+/***.container a span
 {
-    width: 10%;
-    height: 1px;
+    
+   
     
     
-    
-}
+}***/
 .container a ion-icon
 {
     width: 10%;
-    
-    
+    }
 }
+@media screen and (max-width:1000px) and (min-width:600px)
+{
+    .navbar
+    {
+    width: 100%;
+}
+.navbar ul li{
+    font-size: 1.3em;
+    margin-top: 15px;
+}  
+.navbar ul li a{
+    font-size: 1.4em;
+    margin-top: 15px;
+}  
+.box
+{
+    top: -40px;
+}
+.box span {
+    width: 80%;
+    height: 80%;
+    align-items: center;
+    justify-content: center;
+}
+.box span img{
+    width: 80%;
+    height: 80%;
+}
+.container
+{
+    width: 50%;
+    height: 50%;
+    bottom: 20px;
+    
+    }
+.container a 
+{
+    
+    width: 50%;
+    height: 12%;
+    font-size: 12px;
+    bottom: -140px;
+}
+/**.container a span
+{
+   
+}**/
+.container a ion-icon
+{
+    width: 10%;
 }
 
-
-
+}
 
