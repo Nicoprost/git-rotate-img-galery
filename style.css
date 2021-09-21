@@ -218,6 +218,11 @@ transition-delay: 0.75s;
     font-size: 1em;
     margin-top: 20px;
 }  
+.box
+{
+    align-items: center;
+    justify-content: center;
+}
 .box span {
     width: 70%;
     height: 70%;
