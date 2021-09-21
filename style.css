@@ -212,7 +212,7 @@ transition-delay: 0.75s;
 }
 .navbar ul li{
     font-size: 1em;
-    margin-top: 20px;
+    margin-top: 5px;
 }  
 .navbar ul li a{
     font-size: 1em;
@@ -220,7 +220,7 @@ transition-delay: 0.75s;
 }  
 .box
 {
-    top: 60px;
+    top: 80px;
 }
 .box span {
     width: 70%;
@@ -233,13 +233,15 @@ transition-delay: 0.75s;
 }
 .container
 {
-    width: 50%;
+    display:flex;
+    flex:initial;
+    width: 80%;
     height: 50%;
-    bottom: 20px;
+    bottom: 10px;
     }
 .container a 
 {
-    width: 50%;
+    width: 30%;
     height: 12%;
     font-size: 12px;
     bottom: -120px;
@@ -286,17 +288,16 @@ transition-delay: 0.75s;
 }
 .container
 {
-    width: 50%;
-    height: 50%;
+    width: 45%;
+    height: 40%;
     bottom: 20px;
     
     }
 .container a 
 {
-    
     width: 50%;
     height: 12%;
-    font-size: 12px;
+    font-size: 15px;
     bottom: -140px;
 }
 /**.container a span
