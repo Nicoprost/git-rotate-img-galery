@@ -205,7 +205,7 @@ transition-delay: 0.75s;
 
 /*******responsive*****/
 
-@media screen and (max-width:750px) and (min-width:300px){
+@media screen and (max-width:750px) and (min-width:250px){
     .navbar
     {
     width: 100%;
@@ -220,13 +220,12 @@ transition-delay: 0.75s;
 }  
 .box
 {
-    top: 40px;
+    top: 60px;
 }
 .box span {
-    width: 80%;
-    height: 80%;
-    align-items: center;
-    justify-content: center;
+    width: 70%;
+    height: 70%;
+   
 }
 .box span img{
     width: 70%;
@@ -273,7 +272,7 @@ transition-delay: 0.75s;
 }  
 .box
 {
-    top: 0;
+    top: 50px;
 }
 .box span {
     width: 80%;
@@ -310,4 +309,10 @@ transition-delay: 0.75s;
 }
 
 }
-
+/**@media screen and (max-height:400px) and (max-width:600px) {
+    
+}
+.box
+{
+    top: 70px;
+}
