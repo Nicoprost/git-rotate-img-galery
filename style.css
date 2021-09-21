@@ -203,6 +203,39 @@ transition: 1s;
 transition-delay: 0.75s;
 }
 
+/*******responsive*****/
+
+@media screen and (max-width:700px) and (min-width:300px){
+    .navbar
+    {
+    width: 100%;
+}
+.navbar ul li{
+    font-size: 1em;
+    margin-top: 20px;
+}  
+.navbar ul li a{
+    font-size: 1em;
+    margin-top: 20px;
+}  
+.box span {
+    width: 70%;
+    height: 70%;
+}
+.box span img{
+    width: 70%;
+    height: 70%;
+}
+.container
+{
+    width: 70%;
+    }
+.container a span
+{
+    width: 70%;
+}
+}
+
 
 
 
