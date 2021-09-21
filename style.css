@@ -220,16 +220,17 @@ transition-delay: 0.75s;
 }  
 .box
 {
+    top: 30px;
+}
+.box span {
+    width: 80%;
+    height: 80%;
     align-items: center;
     justify-content: center;
 }
-.box span {
-    width: 70%;
-    height: 70%;
-}
 .box span img{
-    width: 70%;
-    height: 70%;
+    width: 80%;
+    height: 80%;
 }
 .container
 {
@@ -241,9 +242,9 @@ transition-delay: 0.75s;
 {
     align-items: center;
     width: 50%;
-    height: 8%;
+    height: 12%;
     font-size: 12px;
-    bottom: -200px;
+    bottom: -100px;
 }
 .container a span
 {
